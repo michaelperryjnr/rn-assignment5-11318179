@@ -1,10 +1,8 @@
 import React from "react";
 import { ThemeProvider, useTheme } from "../components/ThemeContext";
-import TabLayout from "./tabs";
+import { TabLayout } from "../components";
 
-
-
-const Layout = () => { 
+const Layout = () => {
   return (
     <>
       <ThemeProvider>
@@ -13,6 +11,5 @@ const Layout = () => {
     </>
   );
 };
-
 
 export default Layout;
